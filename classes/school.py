@@ -1,8 +1,9 @@
-from classes.staff import Staff
-from classes.student import Student
+from .staff import *;
+from .student import *;
+
 
 class School:
     def __init__(self, name):
         self.name = name
-        self.staff = Staff.objects()
-        self.students = Student.objects()
+        self.staff = Staff.all_staff()
+        self.students = Student.all_students()
