@@ -22,3 +22,4 @@ def creator_ultimate_v1(path, class_type):
             instance = class_type(**x)
             instance_list.append(instance)
         return (instance_list)
+
