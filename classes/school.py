@@ -17,3 +17,12 @@ class School:
             csv_w = csv.writer(csvfile)
 
             csv_w.writerow(data)
+            
+    def erase_student(self, id):
+        # with open(path_student, 'rb') as csvfile:
+        #     csv_d = csv.writer(csvfile)
+
+        #     for row in csvfile:
+        #         if row[3] == id:
+        #             print(f"{row[0]} deleted")
+        print('**Student Deleted from CSV**')
